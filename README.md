@@ -1,2 +1,2 @@
 # Spotify-clone
-This a webpage of Anirudh playlist
+This is a webpage of Anirudh playlist
