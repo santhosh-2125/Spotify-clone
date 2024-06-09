@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Your favourite music is here</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="icon.png" />
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li class="brand"><img src="logo.png" alt="Spotify" /> Spotify</li>
+      </ul>
+    </nav>
+    <!-- the main content area of the webpage -->
+    <div class="container">
+      <div class="songList">
+        <!-- the title of the song list -->
+        <h1>Best of Anirudh - No Copyright Sounds</h1>
+        <!--  the list of songs and their details -->
+        <div class="songItemContainer">
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName">Vikram Title-Track</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >03:38
+                <i id="0" class="far songItemPlay fa-play-circle"></i> </span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName">Hoyna Hoyna</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >04:31
+                <i id="1" class="far songItemPlay fa-play-circle"></i> </span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName">Vaathi coming</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >03:48
+                <i id="2" class="far songItemPlay fa-play-circle"></i> </span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName">Nippulanti Nirudyogi</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >04:01
+                <i id="3" class="far songItemPlay fa-play-circle"></i> </span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName">Gaali vaaluga </span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >04:18
+                <i id="4" class="far songItemPlay fa-play-circle"></i> </span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName">Why this kolaveri di?</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >04:20
+                <i id="5" class="far songItemPlay fa-play-circle"></i> </span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName">Chellamma</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >03:56
+                <i id="6" class="far songItemPlay fa-play-circle"></i> </span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName">Massu Maranam</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >03:36
+                <i id="7" class="far songItemPlay fa-play-circle"></i> </span
+            ></span>
+          </div>
+          
+          
+        </div>
+      </div>
+      <div class="songBanner"></div>
+    </div>
+
+    <!-- A bottom div for displaying the song controls -->
+    <div class="bottom">
+      <!-- A progress bar-->
+      <input
+        type="range"
+        name="range"
+        id="myProgressBar"
+        min="0"
+        value="0"
+        max="100"
+      />
+      <!-- A container div -- fontawesome icons -->
+      <div class="icons">
+        <!-- previous song -->
+        <i class="fas fa-2x fa-step-backward" id="previous"></i>
+        <!-- playing/pausing the current song -->
+        <i class="far fa-2x fa-play-circle" id="masterPlay"></i>
+        <!--  next song -->
+        <i class="fas fa-2x fa-step-forward" id="next"></i>
+      </div>
+      <!--  information of the current song -->
+      <div class="songInfo">
+        <!-- An image of a playing animation -->
+        <img src="playing.gif" width="42px" alt="" id="gif" />
+        <!-- The name of the currently playing song -->
+        <span id="masterSongName">Vikram Title-Track</span>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+    <script src="https://kit.fontawesome.com/26504e4a1f.js"crossorigin="anonymous" ></script>
+  </body>
+</html>
